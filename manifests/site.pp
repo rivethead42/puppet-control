@@ -24,8 +24,8 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-node 'tthomsen4.mylabserver' {
-  notify { 'This matches the node name!!!!': }
+node 'tthomsen4' {
+  notify { 'This matches tthomsen4!!!!': }
 }
 
 #node /^tthomsen4/ {
