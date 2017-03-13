@@ -36,4 +36,7 @@ mod 'role',
 mod 'profile',
   :git => 'git@github.com:rivethead42/puppet-profile.git',
   :ref => 'master'
- 
+
+mod 'nginx',
+  :git => 'git@github.com:rivethead42/puppet-nginx.git', 
+  :ref => 'master'
