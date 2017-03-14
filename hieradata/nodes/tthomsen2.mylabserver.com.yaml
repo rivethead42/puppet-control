@@ -3,6 +3,6 @@ profile::nginx::vhosts:
   - 'fqdn': 'tthomsen2.mylabserver.com'
     'port': '80'
     'server_aliases': ''
-  - 'fqdn': 'tthomsen2.mylabserver.com'
+  - 'fqdn': 'tthomsen2b.mylabserver.com'
     'port': '80'
     'server_aliases': 'tthomsen2b1.mylabserver.com'
