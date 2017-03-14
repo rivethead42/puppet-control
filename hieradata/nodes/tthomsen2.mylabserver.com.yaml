@@ -1,5 +1,5 @@
 ---
-::profile::nginx::vhosts: {
+profile::nginx::vhosts: {
   'tthomsen2.mylabserver.com': {
     'fqdn': 'tthomsen2.mylabserver.com',
     'port': '80',
