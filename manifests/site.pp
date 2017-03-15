@@ -24,20 +24,6 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-node 'tthomsen2.mylabserver.com' {
-  notify { 'test-message-for-tthomsen2':
-    message => 'this is tthomsen2 using a node def',
-  }
-}
-
-node 'tthomsen4' {
-  notify { 'This matches tthomsen4!!!!': }
-}
-
-#node /^tthomsen4/ {
-#  notify { "This is a node definition using regex!!!!": }
-#}
-
 node 'tthomsen1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
   include pe_repo::platform::ubuntu_1204_amd64
