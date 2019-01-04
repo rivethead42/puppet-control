@@ -8,8 +8,8 @@ mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
 mod "puppet/selinux",         '0.8.0'
 mod "garethr/docker",         '5.3.0'
-mod "puppetlabs/apt",         '2.3.0'
-mod "stahnma/epel",           '1.2.2'
+
+
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -22,18 +22,21 @@ mod "stahnma/epel",           '1.2.2'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'https://github.com/rivethead42/puppet-ssh.git',
+  :git => 't@github.com:nagasoumi/puppet-ssh.git',
   :ref => 'master'
 
 mod 'ntp',
-  :git => 'https://github.com/rivethead42/puppet-ntp.git',
+  :git => 'git@github.com:nagasoumi/puppet-ntp-1.git',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/rivethead42/puppet-role.git',
-  :ref => 'master'
+  :git => 'git@github.com:nagasoumi/puppet-role.git',
+  :ref => 'development'
 
 mod 'profile',
-  :git => 'git@github.com:rivethead42/puppet-profile.git',
+  :git => 'git@github.com:nagasoumi/puppet-profile.git',
+  :ref => 'development'
+
+mod 'nginx',
+  :git => 'git@github.com:nagasoumi/puppet-nginx.git',
   :ref => 'master'
- 
