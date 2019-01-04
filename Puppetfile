@@ -31,11 +31,11 @@ mod 'ntp',
 
 mod 'role',
   :git => 'git@github.com:nagasoumi/puppet-role.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'profile',
   :git => 'git@github.com:nagasoumi/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'nginx',
   :git => 'git@github.com:nagasoumi/puppet-nginx.git',
